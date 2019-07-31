@@ -17,25 +17,35 @@ There are many different events that we can add to an element.
 ##### Mouse Events
 
 `click` - the element will listen for a click action
+
 `dblclick` - the element will listen for a double click
+
 `mouseover` - the element will listen for a cursor to move over the element
+
 `mouseenter` - the element will listen for the cursor to enter the element area
+
 `mouseout` - the element will listen for the cursor to leave the element area
 
 ##### Keyboard Events
+
 `keydown` - the element listens for any key to be pressed
+
 `keyup` - the element listens for a key to lift
 
 ##### Form Events
+
 `reset` - this will listen for a reset action
+
 `submit` - this will listen for a submit event
 
 ##### Focus Events
 
 `focus` - listens for the element to receive focus
+
 `blur` - listens for an element to lose focus
 
 ##### Input Events
+
 `change` - listens for a change in a controlled input
 
 #### Event Handler
