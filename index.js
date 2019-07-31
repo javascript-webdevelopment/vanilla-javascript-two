@@ -36,3 +36,11 @@ formBtn.addEventListener('click', function(event){
 
     console.log('stopped form submission')
 });
+
+// Create Element And Append Child Methods
+// create the button element
+const btn = document.createElement('BUTTON');
+// add inner text
+btn.innerText = 'Click me';
+// Add the new button into the body element
+document.body.appendChild(btn);

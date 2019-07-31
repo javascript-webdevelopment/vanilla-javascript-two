@@ -232,5 +232,22 @@ const myList = document.querySelector('.myList');
 ```
 
 ```javascript
-const listItems = document.querySelector('li');
+const listItems = document.querySelectorAll('li');
 ```
+
+## Node Methods
+
+`.createElement('element name')` - this method creates an element with the name that is passed in as an argument
+
+`.appendChild('element to append')` - this method appends a node as the last child of a node list
+
+Creating a button with text example:
+```javascript
+// create the button element
+const btn = document.createElement('BUTTON');
+// add inner text
+btn.innerText = 'Click me';
+// Add the new button into the body element
+document.body.appendChild(btn);
+```
+
