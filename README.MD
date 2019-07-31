@@ -251,3 +251,52 @@ btn.innerText = 'Click me';
 document.body.appendChild(btn);
 ```
 
+`.remove()` - this method removes the element from where it belongs
+
+```html
+<div id="divOne">Here is divOne</div>
+<div id="divTwo">Here is divTwo</div>
+<div id="divThree">Here is divThree</div>
+
+<script>
+const elementToRemove = document.getElementById('divTwo');
+elementToRemove.remove(); // Removes the div with the 'divTwo' id
+</script
+```
+
+`.getAttribute()` - this method returns the value of an attribute using a specified name
+
+```html
+<button class="btn">Click Me!</button>
+
+<script>
+const btnClass = document.querySelector('btn').getAttribute('class');
+console.log(btnClass) // result: 'btn'
+</script>
+```
+
+`.setAttribute()` - this method takes in two arguments, the attribute name and the attribute value, then will add the attribute to an element
+
+```html
+<button class="btn">Click Me!</button>
+
+<script>
+const btn = document.querySelector('btn');
+btn.setAttribute('id', 'myBtn');
+</script>
+```
+
+## Node Property
+
+`.parentNode` - The parentNode property returns the parent node of the specified node, as a Node object
+
+```html
+<div class="parent">
+    <button class="child">Click Me</button>
+</div>
+
+<script>
+    const btn = document.querySelector('.child');
+    const btnParent = btn.parentNode;
+</script>
+```
